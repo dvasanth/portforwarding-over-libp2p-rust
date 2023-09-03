@@ -25,7 +25,7 @@ First run the program as follows to the machine where you need to run the proxy 
 cargo run -- --forwarder
 ```
 
-Then run the program in second machine which will need to use the proxy server in above program.
+Then run the program in second machine which will need to use the proxy server in above program. Wait for the machine to show up "Found other peer, proxy active" message before browsing internet over this channel.
 
 ```
 >cargo run -- --topic <topic-id-from-first-machine>
